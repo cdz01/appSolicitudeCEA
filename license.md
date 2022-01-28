@@ -1,0 +1,1 @@
+* CDT DEV. Aplicacion de Inventariado Dinamico, facil y gestionable

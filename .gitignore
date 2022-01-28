@@ -1,0 +1,5 @@
+node_modules
+/dist
+cdz01
+cdz01.pub
+.vscode

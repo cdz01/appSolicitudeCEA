@@ -1,0 +1,47 @@
+{
+  "name": "Solicitudes_Prestamos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "build": {
+    "appId": "Solicitudes de Prestamos CEA",
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "icon": "logo.ico"
+  },
+  "nsis": {
+    "oneClick": true,
+    "installerIcon": "logo.ico",
+    "uninstallerIcon": "logo.ico" ,
+    "uninstallerDisplayName": "Solicitudes de Prestamos CEA Desinstalar",
+    "license": "license.md",
+    "allowToChangeInstallationDirectory": false
+  },
+  
+  "keywords": [],
+  "author": {
+    "name": "Carlos Diaz",
+    "email": "diazcarl401@gmail.com"
+  },
+  "license": "license.md",
+
+  "dependencies": {
+    "@electron/remote": "^2.0.1",
+    
+    "jspdf": "^2.4.0",
+    "jspdf-autotable": "^3.5.23"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.14.5",
+    "electron": "^16.0.3"
+  }
+}
